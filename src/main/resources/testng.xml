@@ -8,7 +8,7 @@
             </run>
         </groups>
         <package>
-            <class name="com.vaznoe.framework.test.*"/>
+            <class name="com.vaznoe.example.test.*"/>
         </package>
     </test>
 </suite>

@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Configuration
-@ComponentScan(basePackages = "com.example.demo")
+@ComponentScan(basePackages = "com.vaznoe.example")
 public class EnvironmentConfig {
 
     private static final Logger logger = LoggerFactory.getLogger(EnvironmentConfig.class);
