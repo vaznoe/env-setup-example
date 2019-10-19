@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Regression suite" verbose="1" >
+    <parameter name="Environment" value="${env}"/>
+    <test name="Test" >
+        <groups>
+            <run>
+                <include name="full"/>
+            </run>
+        </groups>
+        <package>
+            <class name="com.vaznoe.framework.test.*"/>
+        </package>
+    </test>
+</suite>
